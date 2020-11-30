@@ -10,3 +10,14 @@ target/
 .DS_Store
 
 notes.md
+
+#vscode
+*.code-workspace
+*.env
+!.env-template
+
+#artifacts related to dclim
+manifest/
+
+#binaries linked from build target dirs
+bin/
